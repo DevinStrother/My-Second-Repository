@@ -3,43 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Flexbox Navbar/css/styles.css">
-    <link rel="stylesheet" href="flexbox navbar/css/style.css"/>
-    <title>CSS GRID</title>
+    <link rel="stylesheet" href="Flexbox Navbar/css/style.css">
+    <link rel="stylesheet" href="Flexbox Navbar/css/glightbox.min.css">
+    <title>Document</title>
 </head>
-<header>
-    <nav class="header-nav"> 
-        <h1 class="logo"><a href="#">Devin Strother</a></h1>
-        <ul class="nav-menu">
-            <li class="nav-item"><a href="index.html">Home</a></li>
-            <li class="nav-item"><a href="About.html">About</a></li>
-            <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-            <li class="nav-item"><a href="shop.html">Shop</a></li>
-        </ul>
-    </nav>
-</header>
 <body>
-    <div class="grid-container">
-        <div class="grid-item1"><a href="Gallery.html">Photo Grid Gallery</a></div>
-        <div class="grid-item2">Item 2</div>
-        <div class="grid-item3">Item 3</div>
-        <div class="grid-item4">Item 4</div>
-        <div class="grid-item5">Item 5</div>
-        <div class="grid-item6">Item 6</div>
-        <div class="grid-item7">Item 7</div>
-        <div class="grid-item8">Item 8</div>
-        <div class="grid-item9">Item 9</div>
-
-    </div>
     <header>
-        <nav class="header-nav"> 
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="About.html">About</a></li>
-                <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a href="shop.html">Shop</a></li>
-            </ul>
+        <nav class="header-nav">
+            <h1 class="logo"><a href="index.html">Devin Strother</a></h1>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="About.html">About</a></li>
+                    <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a href="shop.html">Shop</a></li>
+        </ul>
         </nav>
     </header>
+    <main class="gallery-page">
+        <section class="gallery-auto-fit">
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/20201001_095710 (1).jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/20201001_095710 (1).jpg" 
+                alt="Monsters coming after a little boy" 
+                class="gallery-img"/></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/20201006_173856.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/20201006_173856.jpg" 
+                alt="Angel with red wings" 
+                class="gallery-img" ></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/20201122 Strother Devin Final Project .jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/20201122 Strother Devin Final Project .jpg" 
+                alt="Mystical lego landscape" 
+                class="gallery-img"></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/20201208_155850.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/20201208_155850.jpg" 
+                alt="Water bottles drawn in graphite" 
+                class="gallery-img"/></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/20201208_160156.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/20201208_160156.jpg" 
+                alt="Personification of the Andromeda Galaxy" 
+                class="gallery-img"/></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/Card front.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/Card front.jpg" 
+                alt="Purple card with the side profile of a woman and flowers" 
+                class="gallery-img"/></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/Chained.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/Chained.jpg" 
+                alt="Blue figure with yellow background and pink smoke" 
+                class="gallery-img"/></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/polar bear cub info graphic.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/polar bear cub info graphic.jpg" 
+                alt="Info Graphic of Polar bear anatomy" 
+                class="gallery-img"/></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/Self portrait.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/Self portrait.jpg" 
+                alt="Colorful Self Portrait of the artist" 
+                class="gallery-img"/></a></div>
+            <div class="gallery-item">
+                <a href="Flexbox Navbar/img/Fish.jpg" class="glightbox"
+                ><img 
+                src="Flexbox Navbar/img/Fish.jpg"
+                alt="Ink drawing of a Fish for Inktober" 
+                class="gallery-img"/></a></div>
+        </section>
+    </main>
+    <script src="glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({ loop: true });
+    </script>
 </body>
 </html>
